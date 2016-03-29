@@ -520,25 +520,25 @@ static const CGFloat kDetailsLabelFontSize = 12.f;
 	totalSize.height += indicatorF.size.height;
 	
     CGSize labelSize = CGSizeMake(0, 0);
-//    if (label) {
-//        labelSize = [label.text sizeForFont:label.font];//bugly反馈下面该行出现野指针,所以加上if判断
-//        labelSize.width = MIN(labelSize.width, maxWidth);
-//        totalSize.width = MAX(totalSize.width, labelSize.width);
-//        totalSize.height += labelSize.height;
-//        if (labelSize.height > 0.f && indicatorF.size.height > 0.f) {
-//            totalSize.height += kPadding;
-//        }
-//    }
+    if (label) {
+        labelSize = [label.text sizeWithFont:label.font];//bugly反馈下面该行出现野指针,所以加上if判断
+        labelSize.width = MIN(labelSize.width, maxWidth);
+        totalSize.width = MAX(totalSize.width, labelSize.width);
+        totalSize.height += labelSize.height;
+        if (labelSize.height > 0.f && indicatorF.size.height > 0.f) {
+            totalSize.height += kPadding;
+        }
+    }
 
 	CGFloat remainingHeight = bounds.size.height - totalSize.height - kPadding - 4 * margin; 
 	CGSize maxSize = CGSizeMake(maxWidth, remainingHeight);
-//    CGSize detailsLabelSize = [detailsLabel.text sizeForFont:detailsLabel.font constrainedToSize:maxSize lineBreakMode:detailsLabel.lineBreakMode];
+    CGSize detailsLabelSize = [detailsLabel.text sizeWithFont:detailsLabel.font constrainedToSize:maxSize lineBreakMode:detailsLabel.lineBreakMode];
     
-//	totalSize.width = MAX(totalSize.width, detailsLabelSize.width);
-//	totalSize.height += detailsLabelSize.height;
-//	if (detailsLabelSize.height > 0.f && (indicatorF.size.height > 0.f || labelSize.height > 0.f)) {
-//		totalSize.height += kPadding;
-//	}
+	totalSize.width = MAX(totalSize.width, detailsLabelSize.width);
+	totalSize.height += detailsLabelSize.height;
+	if (detailsLabelSize.height > 0.f && (indicatorF.size.height > 0.f || labelSize.height > 0.f)) {
+		totalSize.height += kPadding;
+	}
 	
 	totalSize.width += 2 * margin;
 	totalSize.height += 2 * margin;
@@ -561,14 +561,14 @@ static const CGFloat kDetailsLabelFontSize = 12.f;
 	label.frame = labelF;
 	yPos += labelF.size.height;
 	
-//	if (detailsLabelSize.height > 0.f && (indicatorF.size.height > 0.f || labelSize.height > 0.f)) {
-//		yPos += kPadding;
-//	}
-//	CGRect detailsLabelF;
-//	detailsLabelF.origin.y = yPos;
-//	detailsLabelF.origin.x = roundf((bounds.size.width - detailsLabelSize.width) / 2) + xPos;
-//	detailsLabelF.size = detailsLabelSize;
-//	detailsLabel.frame = detailsLabelF;
+	if (detailsLabelSize.height > 0.f && (indicatorF.size.height > 0.f || labelSize.height > 0.f)) {
+		yPos += kPadding;
+	}
+	CGRect detailsLabelF;
+	detailsLabelF.origin.y = yPos;
+	detailsLabelF.origin.x = roundf((bounds.size.width - detailsLabelSize.width) / 2) + xPos;
+	detailsLabelF.size = detailsLabelSize;
+	detailsLabel.frame = detailsLabelF;
 	
 	// Enforce minsize and quare rules
 	if (square) {

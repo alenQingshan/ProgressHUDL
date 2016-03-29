@@ -35,8 +35,8 @@
 
 -(void)btn
 {
-    [MBProgressHUD showError:@"" time:1];
-    [MBProgressHUD showSuccess:@"" time:2];
+//    [MBProgressHUD showError:@"失败" time:1];
+    [MBProgressHUD showSuccess:@"成功" time:2];
 //    [MBProgressHUD showMessage:@"success" toView:self.view];
 }
 
