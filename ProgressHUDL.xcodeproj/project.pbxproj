@@ -16,9 +16,9 @@
 		EAF04A6C1CAA36FE00B9F504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF04A6A1CAA36FE00B9F504 /* LaunchScreen.storyboard */; };
 		EAF04A771CAA36FE00B9F504 /* ProgressHUDLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF04A761CAA36FE00B9F504 /* ProgressHUDLTests.m */; };
 		EAF04A821CAA36FE00B9F504 /* ProgressHUDLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF04A811CAA36FE00B9F504 /* ProgressHUDLUITests.m */; };
-		EAF04A9A1CAA37B500B9F504 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EAF04A951CAA37B500B9F504 /* MBProgressHUD.bundle */; };
-		EAF04A9C1CAA37B500B9F504 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF04A991CAA37B500B9F504 /* MBProgressHUD+NJ.m */; };
-		EAF04A9F1CAA3E3F00B9F504 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF04A9E1CAA3E3F00B9F504 /* MBProgressHUD.m */; };
+		EAF04AAC1CAA464000B9F504 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF04AA81CAA464000B9F504 /* MBProgressHUD+NJ.m */; };
+		EAF04AAD1CAA464000B9F504 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EAF04AA91CAA464000B9F504 /* MBProgressHUD.bundle */; };
+		EAF04AAE1CAA464000B9F504 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF04AAB1CAA464000B9F504 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,11 +58,11 @@
 		EAF04A7D1CAA36FE00B9F504 /* ProgressHUDLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressHUDLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF04A811CAA36FE00B9F504 /* ProgressHUDLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressHUDLUITests.m; sourceTree = "<group>"; };
 		EAF04A831CAA36FE00B9F504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAF04A951CAA37B500B9F504 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MBProgressHUD.bundle; path = MBProgressHUD/MBProgressHUD.bundle; sourceTree = SOURCE_ROOT; };
-		EAF04A981CAA37B500B9F504 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+NJ.h"; path = "MBProgressHUD/MBProgressHUD+NJ.h"; sourceTree = SOURCE_ROOT; };
-		EAF04A991CAA37B500B9F504 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+NJ.m"; path = "MBProgressHUD/MBProgressHUD+NJ.m"; sourceTree = SOURCE_ROOT; };
-		EAF04A9D1CAA3E3A00B9F504 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		EAF04A9E1CAA3E3F00B9F504 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EAF04AA71CAA464000B9F504 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
+		EAF04AA81CAA464000B9F504 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
+		EAF04AA91CAA464000B9F504 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		EAF04AAA1CAA464000B9F504 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EAF04AAB1CAA464000B9F504 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +111,7 @@
 		EAF04A501CAA36FE00B9F504 = {
 			isa = PBXGroup;
 			children = (
+				EAF04AA61CAA464000B9F504 /* MBProgressHUD */,
 				EAF04A5B1CAA36FE00B9F504 /* ProgressHUDL */,
 				EAF04A751CAA36FE00B9F504 /* ProgressHUDLTests */,
 				EAF04A801CAA36FE00B9F504 /* ProgressHUDLUITests */,
@@ -133,11 +134,6 @@
 		EAF04A5B1CAA36FE00B9F504 /* ProgressHUDL */ = {
 			isa = PBXGroup;
 			children = (
-				EAF04A9D1CAA3E3A00B9F504 /* MBProgressHUD.h */,
-				EAF04A9E1CAA3E3F00B9F504 /* MBProgressHUD.m */,
-				EAF04A951CAA37B500B9F504 /* MBProgressHUD.bundle */,
-				EAF04A981CAA37B500B9F504 /* MBProgressHUD+NJ.h */,
-				EAF04A991CAA37B500B9F504 /* MBProgressHUD+NJ.m */,
 				EAF04A5F1CAA36FE00B9F504 /* AppDelegate.h */,
 				EAF04A601CAA36FE00B9F504 /* AppDelegate.m */,
 				EAF04A621CAA36FE00B9F504 /* ViewController.h */,
@@ -175,6 +171,18 @@
 				EAF04A831CAA36FE00B9F504 /* Info.plist */,
 			);
 			path = ProgressHUDLUITests;
+			sourceTree = "<group>";
+		};
+		EAF04AA61CAA464000B9F504 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EAF04AA71CAA464000B9F504 /* MBProgressHUD+NJ.h */,
+				EAF04AA81CAA464000B9F504 /* MBProgressHUD+NJ.m */,
+				EAF04AA91CAA464000B9F504 /* MBProgressHUD.bundle */,
+				EAF04AAA1CAA464000B9F504 /* MBProgressHUD.h */,
+				EAF04AAB1CAA464000B9F504 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF04A6C1CAA36FE00B9F504 /* LaunchScreen.storyboard in Resources */,
-				EAF04A9A1CAA37B500B9F504 /* MBProgressHUD.bundle in Resources */,
+				EAF04AAD1CAA464000B9F504 /* MBProgressHUD.bundle in Resources */,
 				EAF04A691CAA36FE00B9F504 /* Assets.xcassets in Resources */,
 				EAF04A671CAA36FE00B9F504 /* Main.storyboard in Resources */,
 			);
@@ -360,8 +368,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF04A641CAA36FE00B9F504 /* ViewController.m in Sources */,
-				EAF04A9C1CAA37B500B9F504 /* MBProgressHUD+NJ.m in Sources */,
-				EAF04A9F1CAA3E3F00B9F504 /* MBProgressHUD.m in Sources */,
+				EAF04AAC1CAA464000B9F504 /* MBProgressHUD+NJ.m in Sources */,
+				EAF04AAE1CAA464000B9F504 /* MBProgressHUD.m in Sources */,
 				EAF04A611CAA36FE00B9F504 /* AppDelegate.m in Sources */,
 				EAF04A5E1CAA36FE00B9F504 /* main.m in Sources */,
 			);
