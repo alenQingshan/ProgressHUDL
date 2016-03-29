@@ -1,9 +1,4 @@
-//
-//  MBProgressHUD+NJ.m
-//
-//  Created by 李南江 on 14-5-5.
-//  Copyright (c) 2014年 itcast. All rights reserved.
-//
+
 
 #import "MBProgressHUD+NJ.h"
 
