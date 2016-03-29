@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		439A875D81BF387288A910EA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0CF91B166A3AD76D95523A /* libPods.a */; };
 		EAF04A5E1CAA36FE00B9F504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF04A5D1CAA36FE00B9F504 /* main.m */; };
 		EAF04A611CAA36FE00B9F504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF04A601CAA36FE00B9F504 /* AppDelegate.m */; };
 		EAF04A641CAA36FE00B9F504 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF04A631CAA36FE00B9F504 /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		EAF04A6C1CAA36FE00B9F504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF04A6A1CAA36FE00B9F504 /* LaunchScreen.storyboard */; };
 		EAF04A771CAA36FE00B9F504 /* ProgressHUDLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF04A761CAA36FE00B9F504 /* ProgressHUDLTests.m */; };
 		EAF04A821CAA36FE00B9F504 /* ProgressHUDLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF04A811CAA36FE00B9F504 /* ProgressHUDLUITests.m */; };
+		EAF04A9A1CAA37B500B9F504 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EAF04A951CAA37B500B9F504 /* MBProgressHUD.bundle */; };
+		EAF04A9C1CAA37B500B9F504 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF04A991CAA37B500B9F504 /* MBProgressHUD+NJ.m */; };
+		EAF04A9F1CAA3E3F00B9F504 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF04A9E1CAA3E3F00B9F504 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0CF91B166A3AD76D95523A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		276AC3E5A9F9198727BC3729 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8C414E3FA3EA49B65D88EFC0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EAF04A591CAA36FE00B9F504 /* ProgressHUDL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressHUDL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF04A5D1CAA36FE00B9F504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAF04A5F1CAA36FE00B9F504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		EAF04A7D1CAA36FE00B9F504 /* ProgressHUDLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressHUDLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF04A811CAA36FE00B9F504 /* ProgressHUDLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressHUDLUITests.m; sourceTree = "<group>"; };
 		EAF04A831CAA36FE00B9F504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF04A951CAA37B500B9F504 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MBProgressHUD.bundle; path = MBProgressHUD/MBProgressHUD.bundle; sourceTree = SOURCE_ROOT; };
+		EAF04A981CAA37B500B9F504 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+NJ.h"; path = "MBProgressHUD/MBProgressHUD+NJ.h"; sourceTree = SOURCE_ROOT; };
+		EAF04A991CAA37B500B9F504 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+NJ.m"; path = "MBProgressHUD/MBProgressHUD+NJ.m"; sourceTree = SOURCE_ROOT; };
+		EAF04A9D1CAA3E3A00B9F504 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EAF04A9E1CAA3E3F00B9F504 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439A875D81BF387288A910EA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D603F634FCD0E4C04201B36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B0CF91B166A3AD76D95523A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A340167C1EE4BAA071338DFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				276AC3E5A9F9198727BC3729 /* Pods.debug.xcconfig */,
+				8C414E3FA3EA49B65D88EFC0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EAF04A501CAA36FE00B9F504 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				EAF04A751CAA36FE00B9F504 /* ProgressHUDLTests */,
 				EAF04A801CAA36FE00B9F504 /* ProgressHUDLUITests */,
 				EAF04A5A1CAA36FE00B9F504 /* Products */,
+				A340167C1EE4BAA071338DFB /* Pods */,
+				6D603F634FCD0E4C04201B36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +133,11 @@
 		EAF04A5B1CAA36FE00B9F504 /* ProgressHUDL */ = {
 			isa = PBXGroup;
 			children = (
+				EAF04A9D1CAA3E3A00B9F504 /* MBProgressHUD.h */,
+				EAF04A9E1CAA3E3F00B9F504 /* MBProgressHUD.m */,
+				EAF04A951CAA37B500B9F504 /* MBProgressHUD.bundle */,
+				EAF04A981CAA37B500B9F504 /* MBProgressHUD+NJ.h */,
+				EAF04A991CAA37B500B9F504 /* MBProgressHUD+NJ.m */,
 				EAF04A5F1CAA36FE00B9F504 /* AppDelegate.h */,
 				EAF04A601CAA36FE00B9F504 /* AppDelegate.m */,
 				EAF04A621CAA36FE00B9F504 /* ViewController.h */,
@@ -147,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAF04A861CAA36FE00B9F504 /* Build configuration list for PBXNativeTarget "ProgressHUDL" */;
 			buildPhases = (
+				2D26F3E0A8630F28B2B99558 /* Check Pods Manifest.lock */,
 				EAF04A551CAA36FE00B9F504 /* Sources */,
 				EAF04A561CAA36FE00B9F504 /* Frameworks */,
 				EAF04A571CAA36FE00B9F504 /* Resources */,
+				FB77EB9DCE226EAC2DBB80D3 /* Embed Pods Frameworks */,
+				A1E4815E9DF851BD51CDDA13 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF04A6C1CAA36FE00B9F504 /* LaunchScreen.storyboard in Resources */,
+				EAF04A9A1CAA37B500B9F504 /* MBProgressHUD.bundle in Resources */,
 				EAF04A691CAA36FE00B9F504 /* Assets.xcassets in Resources */,
 				EAF04A671CAA36FE00B9F504 /* Main.storyboard in Resources */,
 			);
@@ -265,12 +306,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D26F3E0A8630F28B2B99558 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1E4815E9DF851BD51CDDA13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB77EB9DCE226EAC2DBB80D3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EAF04A551CAA36FE00B9F504 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EAF04A641CAA36FE00B9F504 /* ViewController.m in Sources */,
+				EAF04A9C1CAA37B500B9F504 /* MBProgressHUD+NJ.m in Sources */,
+				EAF04A9F1CAA3E3F00B9F504 /* MBProgressHUD.m in Sources */,
 				EAF04A611CAA36FE00B9F504 /* AppDelegate.m in Sources */,
 				EAF04A5E1CAA36FE00B9F504 /* main.m in Sources */,
 			);
@@ -413,6 +504,7 @@
 		};
 		EAF04A871CAA36FE00B9F504 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 276AC3E5A9F9198727BC3729 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProgressHUDL/Info.plist;
@@ -424,6 +516,7 @@
 		};
 		EAF04A881CAA36FE00B9F504 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C414E3FA3EA49B65D88EFC0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProgressHUDL/Info.plist;
@@ -498,6 +591,7 @@
 				EAF04A881CAA36FE00B9F504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAF04A891CAA36FE00B9F504 /* Build configuration list for PBXNativeTarget "ProgressHUDLTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +600,7 @@
 				EAF04A8B1CAA36FE00B9F504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAF04A8C1CAA36FE00B9F504 /* Build configuration list for PBXNativeTarget "ProgressHUDLUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +609,7 @@
 				EAF04A8E1CAA36FE00B9F504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
